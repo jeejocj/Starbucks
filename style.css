@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: SoDoSans;
+    src: url(fonts/pxiEyp8kv8JHgFVrJJfecg.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: SoDoSans;
+    src: url(fonts/SoDoSans-Bold.49f6eaa3.woff);
+    font-weight: 600;
+}
+@font-face {
+    font-family: SoDoSans;
+    src: url(fonts/SoDoSans-Regular.fb96a065.woff);
+    font-weight: 700;
+}
+@font-face {
+    font-family: SoDoSans;
+    src: url(fonts/SoDoSans-Regular.fb96a065\ .woff);
+    font-weight: 400;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px ;
+    padding: 0px 39.6px 0px 39.6px;
+}
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    
+    display: flex;
+}
+.header-main-logo img{
+    align-self: center;
+}
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+}
+.header-main-nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+.header-main-nav ul li{
+   display: inline;
+   margin-right: 30px;
+   text-transform: uppercase; 
+}
+.header-main-nav ul li a{
+    line-height: 100px;
+    font-size: 14px;
+    font-family: SoDoSans;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1.4px;
+}
+.header-main-login{
+    width: fit-content;
+    height: 100%;
+    
+    line-height: 100px;
+    font-weight: 700;   
+}
+.header-main-login-find a{
+    font-size: 14px;
+    margin-right: 40px;
+    margin-left: 10px;
+    font-family: SoDoSans;
+    font-weight: 600;
+    color: black;   
+}
+.fa-solid{
+ font-size: 20px;
+}
+.header-main-login-si{
+    padding: 7px 15px;
+    border-radius: 50px 50px;
+    margin-right: 10px;
+    background-color: white;
+    font-family: SoDoSans;
+    font-weight: 600; 
+    
+}
+.header-main-login-jn{
+    padding: 7px 15px;
+    border-radius: 50px 50px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    font-family: SoDoSans;
+    font-weight: 600;
+}
+
+ .row{
+     display: flex;
+     height: auto;
+     margin: 32px 39.6px 32px 39.6px;    
+ } 
+
+.col-img{
+    width: 50%;
+    height: auto;
+}
+.col-txt{
+    width: 50%;
+    text-align: center;
+    padding-top: 120px;
+}
+.col-txt h1{
+   font-size: 24px;
+   font-family: SoDoSans;
+   font-weight: 600;
+   margin-bottom: 24px;
+}
+.col-txt p{
+    font-size: 19px;
+    font-family: SoDoSans;
+    font-weight: 400;
+ }
+ .col-txt button{
+    margin-top: 32px;
+    font-family: SoDoSans;
+    font-weight: 600;
+ }
+#col-txt-1{
+    background: #006241;
+    color: white;
+}
+#col-txt-2{
+    background: #f2f0eb;
+    color: black;
+}
+#col-txt-3{
+    background: #a3029a;
+    color: white;
+}
+#col-txt-4{
+    background: #97d8b1;
+    color: black;
+}
+.col-txt p{
+    line-height: 33.25px;
+    letter-spacing: -0.16px;
+    font-size: 19px;
+    font-family: SoDoSans;
+    font-weight: 400;
+    line-height: 33.25px;
+    letter-spacing: -0.16px;
+}
+.col-txt button{
+    background-color: transparent;
+}
+
+#col-txt-1 button{
+   color: white;
+   border-style: solid;
+   border-color: white;  
+}
+#col-txt-3 button{
+    color: white;
+    border-style: solid;
+    border-color: white;  
+ }
+
+ #col-txt-3 h1{
+   font-size: 50px;
+   line-height: 60px;
+    
+ }
+ .disclaimer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 428px;
+    font-family: SoDoSans;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px ;
+    
+ }
+ .disclaimer .para-2{
+    margin-top: 100px;
+ }
+ .disclaimer .para-1{
+    padding: 0px 4px; 
+ }
+ .disclaimer .para-2 a{
+    color: black;
+    text-decoration:underline;
+ } 
+ .footer-table th {
+    font-size: 19px;
+    font-family: SoDoSans;
+    font-weight: 400;
+    text-align: start;
+ }
+.footer-table table{
+        width: 79%;
+        margin: 32px 39.6px 32px 39.6px;
+} 
+.footer-table tr{   
+        height: 50px;
+        font-size: 16px;
+        font-family: SoDoSans;
+        font-weight: 400;  
+} 
+.footer-table a{
+      color: grey;     
+} 
+hr{
+    color:rgba(0, 0, 0, 0.15) 1.95px 1.95px ; 
+    margin: 30px 30px;
+}
+.footer-final{
+    margin: 32px 39.6px 32px 39.6px;
+    text-decoration: none;
+    
+}
+ .footer-final ul{
+   list-style: none;
+   margin: 16px 4px;
+  
+ }
+ .footer-final {
+   font-size: 16px;
+   font-family: SoDoSans;
+   font-weight: 400; 
+ }
+ .sm-info{
+   margin-top: 40px;
+   
+ }
+ .sm-info a{
+   
+   color: black;
+ }
+.sm-info li{
+   height: 50px;
+}
+.sm-logo i{
+   font-size: 30px;
+   padding-right: 15px;
+}
+small{
+    color: grey;  
+  }
